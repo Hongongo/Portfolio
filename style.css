@@ -736,6 +736,18 @@ section.naked {
 /*-----------------------------------------------------------------------------------*/
 /*	05. SERVICES ICONS
 /*-----------------------------------------------------------------------------------*/
+.skill-icon{
+    display: table;
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    float: left;
+    margin-right: 20px;
+}
+
 .services-1 .row {
     text-align: left
 }
@@ -745,8 +757,10 @@ section.naked {
 .services-1 .row  .icon {
     float: left;
     margin-right: 20px;
+
 }
 .services-1 .row .text {
+    margin-top: 10px;
     overflow: hidden
 }
 .services-1 .icon i.icn {
