@@ -3346,3 +3346,9 @@ textarea {
 	    margin: -25px -25px 25px -25px
 	}
 }
+
+.source-code{
+    width: 70px;
+    height: 70px;
+
+}
