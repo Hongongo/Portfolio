@@ -91,7 +91,7 @@
   
   <div class="container">
     <section id="about">
-      <div class="box">
+      <section class="box">
         <h2 class="section-title">Who is Behind All This</h2>
         <div class="row">
           <div class="col-md-5 col-md-push-7 col-sm-12">
@@ -100,8 +100,8 @@
           <!-- /column -->
           <div class="col-md-7 col-md-pull-5 col-sm-12">
             <p class="lead">José Manuel Martínez Flores </p>
-            <p>The last two, almost three years I’ve been learning programming actively as a freelancer (most of the time in personal projects) and the process although it has been rough and full of what seemed at that time dead ends also has been incredibly satisfying seeing my apps doing whatever I can imagine with the only restrain being the lack of knowledge witch I think is pretty common in this regard.</p>
-            <p>In the other hand im a pretty passionate guy so the time im not programming Im usually playing RPG video games, those are my favorite and also I love practicing sports like Brazilian Jiu-Jitsu, Muay Thai, Basketball, Skating (that’s what brought me to my current knee state) which im anxious to practice as soon as posible.</p>
+            <p>The last three years I’ve been learning programming actively as a freelancer (most of the time in personal projects) and the process although it has been rough and full of what seemed at that time dead ends also has been incredibly satisfying seeing my apps doing whatever I can imagine with the only restrain being the lack of knowledge witch I think is pretty common in this regard.</p>
+            <p>In the other hand im a pretty passionate guy so the time im not programming Im usually playing RPG video games, also I love practicing sports like Brazilian Jiu-Jitsu, Muay Thai, Basketball, Skating and outdoor activities in general</p>
           </div>
           <!-- /column -->
         </div>
@@ -211,8 +211,8 @@
                         </div>
                         <img src="style/images/resources/trivia-game.png" alt="" /></a></figure>
                       <div class="meta"><span class="category">HTML/JavaScript</span><span class="date">23 March 2019</span></div>
-                      <h2 class="post-title"><a href="projects-portfolio/TriviaGame/index.html">Trivia Game</a></h2>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                      <h2 class="post-title"><a href="projects-portfolio/TriviaGame/index.html">Simpson's Trivia Game</a></h2>
+                      <p>This app tests Simpsons fans knowledge with some tricky and obscure classic Simpsons questions, can you answer them all while the clock is ticking? <br/><br/>Up and atom!</p>
                     </div>
                     <!-- /.post -->
                   </div>
@@ -227,7 +227,7 @@
                         <img src="style/images/resources/giftastic.png" alt="" /></a></figure>
                       <div class="meta"><span class="category">HTML/JavaScript/Ajax</span><span class="date">01 April 2019</span></div>
                       <h2 class="post-title"><a href="projects-portfolio/GifTastic/index.html">GifTastic</a></h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus.</p>
+                      <p>This app is for video game gif lovers who want to find some random gifs from their favorite games selected directly from <a href="https://giphy.com/">Giphy's</a> library.</p>
                     </div>
                     <!-- /.post -->
                   </div>
@@ -259,7 +259,7 @@
                         <img src="style/images/resources/rpg-game.png" alt="" /></a></figure>
                       <div class="meta"><span class="category">HTML/JavaScript</span><span class="date">16 March 2019</span></div>
                       <h2 class="post-title"><a href="projects-portfolio/rpg-game/index">RPG/Earthbound</a></h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus.</p>
+                      <p>A simple RPG game based on the master piece of the 95's EarthBound, pick one of four main heroes and begin a simple turn based battle!</p>
                     </div>
                     <!-- /.post -->
                   </div>
@@ -471,6 +471,23 @@
 <script src="style/js/scripts.js"></script>  
 <script>
 	$.backstretch(["style/images/art/bg5.jpg"]);
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAkZ9VaEjCD9akh40FUUvV_AF6uZ-w1_34",
+        authDomain: "portfolio-f5af3.firebaseapp.com",
+        databaseURL: "https://portfolio-f5af3.firebaseio.com",
+        projectId: "portfolio-f5af3",
+        storageBucket: "portfolio-f5af3.appspot.com",
+        messagingSenderId: "383548794220",
+        appId: "1:383548794220:web:3c34ca928ea6e68b"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
 </script>
 </body>
 </html>
