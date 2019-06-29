@@ -155,7 +155,7 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 .container {
-    padding-right: 0;
+    padding-right: 0px;
     padding-left: 0;
 }
 body,
@@ -1827,11 +1827,8 @@ figure.main img {
     content: "→";
     padding-left: 10px;
 }
-.sidebox {
-    margin-top: 20px;
-    display: block;
-}
-.sidebox:first-child {
+.
+sidebox:first-child {
     margin: 0
 }
 .sidebox .section-title {
